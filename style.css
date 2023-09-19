@@ -1,4 +1,54 @@
 body {
+    font-size: 20px;
     line-height: 1.5;
     font-family: 'Mate', serif;
+    color: #4F4F4F;
+    margin: 0;
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    font-style: italic;
+}
+
+.moje-foto {
+    width: 250px;
+    border: 2px solid #4F4F4F;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.znalosti {
+    background-color: #C6E2FF;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+.paticka {
+    text-align: center;
+    background-color: #00688B;
+    color: white;
+    padding: 20px 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 10%;
+    overflow: auto;
+}
+
+.hlavicka {
+    padding: 100px 30px;
+    padding: 50px 10%;
 }
