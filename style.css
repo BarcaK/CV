@@ -1,6 +1,7 @@
 body {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.5;
+    background-color: #E0FFFF;
     font-family: 'Mate', serif;
     color: #4F4F4F;
     margin: 0;
@@ -12,43 +13,88 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
     font-style: italic;
 }
 
+.kontakt h2 {
+    margin-top: 30px;
+}
+
 .moje-foto {
     width: 250px;
     border: 2px solid #4F4F4F;
     border-radius: 50%;
-    float: left;
-    margin: 0 30px 30px 0;
+    float: right;
+    margin: 10px 0 10px 50px;
 }
 
-.znalosti {
-    background-color: #C6E2FF;
-}
-
-section {
-    padding: 50px 10%;
+.vzdelani {
+    clear: both;
 }
 
 .paticka {
     text-align: center;
     background-color: #00688B;
-    color: white;
     padding: 20px 0;
 }
 
 header {
     text-align: center;
+    background-color: #00688B;
+    color: white;
     padding: 50px 10%;
     overflow: auto;
 }
 
-.hlavicka {
-    padding: 100px 30px;
-    padding: 50px 10%;
+.dovednosti {
+    clear: both;
+}
+
+.email {
+    color:#4F4F4F;
+}
+.linkedin {
+    color: white;
+}
+
+.kurziva {
+    font-style: italic;
+}
+
+.tucne {
+    font-weight: bold;
+}
+
+section {
+    padding: 20px 20%;
+}
+
+.menu {
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    background-color: #27408B;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #00688B;
 }
